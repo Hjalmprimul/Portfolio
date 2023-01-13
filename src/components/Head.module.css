@@ -1,0 +1,100 @@
+.head {
+    display: grid;
+    grid-template-columns: 0.7fr 3fr;
+    column-gap: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.name h1{
+    font-size: 27px;
+    color: rgb(214, 179, 19);
+    margin: 0;
+}
+
+.lastName h1{
+    font-size: 53px;
+    color: rgb(32, 118, 175);
+    margin: 0;
+    height: 60px;
+}
+
+.profession {
+    display: flex;
+    height: 80px;
+    position: relative;
+    top: 15px;
+}
+
+.name h1, .lastName h1{
+    font-family: Comicy, serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.profession h1 {
+    margin: 40px 0px 0px 0px;
+    background: rgba(36, 47, 58, .9);
+    border: 5px solid rgba(36, 47, 58, .8);
+    border-radius: 10px;
+    font-family: Christmas, serif;
+    color: rgb(32, 118, 175);
+    font-size: 30px
+
+}
+.hr{
+    border: none;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    margin: 0px 10px;
+    height: 100%;
+}
+
+.space{
+    display: none;
+}
+
+/* Sticky Head */
+
+.spaceFixed{
+    height: 100px;
+    display: block;
+}
+
+.headFixed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(0, 0, 0);
+    border-radius: 0px 0px 25px 25px;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 80%;
+    z-index: 50;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8),
+    0 0 0 4px rgba(0, 0, 0, 0.6),
+    0 0 0 6px rgba(0, 0, 0, 0.4),
+    0 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.headFixed div {
+    display: inline-block;
+}
+
+.headFixed div .lastName h1 {
+    font-size: 27px;
+    margin: 10px 10px;
+}
+
+.headFixed div .profession {
+    display: inline-block;
+    top: 0;
+}
+
+.headFixed div .profession h1 {
+    border: none;
+    background: none;
+    margin: 15px 0px 10px 10px;
+}
+
+/* Sticky Head End */

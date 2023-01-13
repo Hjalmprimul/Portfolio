@@ -1,0 +1,19 @@
+.resume {
+    padding: 1%;
+    margin: 30px 42px 0px 42px;
+    background: rgba(36, 47, 58, .9);
+    border: 5px solid rgba(36, 47, 58, .8);
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.aboutMe {
+    color: rgb(214, 179, 19);
+    margin-top: 10px;
+}
+
+.aboutMeTitle {
+    color: rgb(32, 118, 175);
+    font-family: Christmas, serif;
+    font-size: 20px;
+}

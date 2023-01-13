@@ -1,0 +1,80 @@
+.MySkillsTitle{
+    color: rgb(32, 118, 175);
+    font-family: Christmas, serif;
+    font-size: 20px;
+}
+.MySkills{
+    padding: 1%;
+    margin: 30px 42px 30px 42px;
+    background: rgba(36, 47, 58, .9);
+    border: 5px solid rgba(36, 47, 58, .8);
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+.content{
+    margin: 10px 20px;
+}
+.content h3{
+    font-family: Comicy, serif;
+    color: rgb(214, 179, 19);
+    font-size: 20px;
+}
+.paleta{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    column-gap: 10px;
+    margin: 10px 20px;
+}
+.content img{
+    width: 70px;
+    transition: transform .1s;
+}
+.content img:hover{
+    transform: scale(1.2);
+    cursor: none;
+}
+.popUp{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 0px 10px 10px 10px;
+    z-index: 50;
+    position:absolute
+}
+.name{
+    font-weight: bold;
+    color: rgb(214, 179, 19);
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.progressBar{
+    height: 11px;
+    width: 200px;
+    margin: 0 10px 0 10px;
+    background: rgb(214, 179, 19, 0.8);
+}
+.indicador{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: rgb(0, 0, 0);
+    left: -12.5px;
+    top: -2px;
+    transform: rotate(45deg);
+}
+.contImg{
+    height: 100%;
+    width: 100%;
+}
+.proyectos{
+    font-weight: lighter;
+    color: rgb(214, 179, 19);
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.ul{
+    color: rgb(32, 118, 175);
+    margin-left: 30px;
+}

@@ -1,0 +1,51 @@
+.cuerpo{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin: 0;
+}
+
+.contact{
+    margin: 30px 42px 30px 0;
+    padding: 1%;
+    background: rgba(36, 47, 58, .9);
+    border: 5px solid rgba(36, 47, 58, .8);
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.contact h3{
+    font-family: Comicy, serif;
+    color: rgb(214, 179, 19);
+    font-size: 20px;
+}
+
+.pares {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+
+.pares p{
+    color: rgb(32, 118, 175);
+    font-family: Christmas, serif;
+    font-size: 20px;
+}
+
+.contWrapper{
+    margin: 10px 0px 10px 20px;
+}
+
+.contWrapper img{
+    margin-top: 10px;
+    width: 25px;
+}
+
+.contWrapper p{
+    margin-top: 10px;
+}
+
+
+.titulo{
+    color: rgb(32, 118, 175);
+    font-family: Christmas, serif;
+    font-size: 20px;
+}
